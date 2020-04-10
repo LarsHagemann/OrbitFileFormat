@@ -40,7 +40,7 @@ struct Geometry:
 
 ```C++
 // HEADER
-18 bytes [typeless]: "ORBIT FILE FORMAT"
+18 bytes [typeless]: "ORBITFILEFORMAT10"
 2 bytes [uint16_t]: numLights
 2 bytes [uint16_t]: numMaterials
 2 bytes [uint16_t]: numTextures
