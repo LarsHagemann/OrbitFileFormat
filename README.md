@@ -8,6 +8,15 @@ type List<size>(Type):
 	A list of size instances of Type
 	List length: size * sizeof(Type) bytes
 
+struct Light:
+	16 bytes [Vector4f]: strength
+	16 bytes [Vector4f]: position
+	16 bytes [Vector4f]: direction
+	4 bytes [float]: angle
+	4 bytes [float]: falloffBegin
+	4 bytes [float]: falloffEnd
+	4 bytes [uint32_t]: type
+
 struct Vertex:
 	12 bytes [Vector3f]: position
 	12 bytes [Vector3f]: normal
