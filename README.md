@@ -37,9 +37,15 @@ struct Texture:
 
 struct Geometry:
 	4 bytes [int32_t]: numVertices
+	4 bytes [int32_t]: compressedSize // Since version 1.1
 	_ bytes [List<numVertices>(Vertex)]: vertices
 	_ bytes [ByteString]: material
 ```
+
+---
+## FILE FORMAT V 1.1
+- add a 4 byte field to the Geometry structure
+- compress the vertices
 
 ---
 ## FILE FORMAT V 1.0
