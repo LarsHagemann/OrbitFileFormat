@@ -2,7 +2,7 @@
 This repository versions the different iterations of the Orbit File Format
 used in the Orbit Game Engine
 ### Change Log:
-#### FILE FORMAT V1.0
+#### FILE FORMAT V2.0
 - add support for animations
 
 ##### Remarks:
