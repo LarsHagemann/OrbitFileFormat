@@ -2,6 +2,13 @@
 This repository versions the different iterations of the Orbit File Format
 used in the Orbit Game Engine
 ### Change Log:
+#### FILE FORMAT V3.0
+- add names
+- add indices to meshes
+- vertices are now generic
+
+##### Remarks:
+- this file format is currently used by the Orbit Engine
 #### FILE FORMAT V2.0
 - add support for animations
 
